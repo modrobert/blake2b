@@ -1,6 +1,6 @@
 /*
  BLAKE2b reference implementation reading from stdin and printing hash.
- By modrobert in 2019.
+ By modrobert@gmail.com in 2019.
 */
 
 #include <stdio.h>
