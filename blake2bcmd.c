@@ -16,7 +16,7 @@ int main()
  uint8_t buf[1];
  size_t i;
 
- /* Init blacke2b, set 512 bit (8 * 64). */
+ /* Init blake2b, set 512 bit (8 * 64). */
  if (blake2b_init(&ctx, 64, NULL, 0))
   return -1;
 
